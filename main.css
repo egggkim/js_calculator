@@ -1,0 +1,97 @@
+body {
+  background-color: #d3d3d3;
+}
+
+.container {
+  width: 320px;
+  height: 380px;
+
+  position: relative;
+  top: 40px;
+  left: 70px;
+
+  border-radius: 15px;
+  box-shadow: inset 0px -1px #76a7cc;
+  background-color: #d8eeff;
+}
+
+#resultsDisplay {
+  border: 1px #b08ad8;
+  border-radius: 10px;
+  box-shadow: inset 1px 1px #76a7cc;
+
+  height: 45px;
+  width: 280px;
+
+  position: relative;
+
+  top: 30px;
+  /*NEED TO FIGURE OUT HOW TO CENTER THIS*/
+  left: 20px;
+
+  color: #898989;
+  line-height: 50px;
+
+  font-family: Bebas;
+  font-size: 20px;
+  letter-spacing: 2px;
+
+  text-align: right;
+
+  user-select: none;
+}
+
+button {
+  font-style: bold;
+  font-family: Bebas;
+  font-size: 18px;
+  line-height: 50px;
+  color: #898989;
+
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+
+  box-shadow: inset -2px -2px #bababa;
+
+  position: relative;
+  top: 40px;
+  left: 12px;
+
+  float: left;
+  width: 60px;
+  height: 40px;
+  margin: 20px 7px 7px 7px;
+  line-height: 35px;
+
+  text-align: center;
+  color: #898989;
+
+  user-select: none;
+}
+
+.operator {
+  border-radius: 10px;
+  background-color: #eeeeee;
+
+  box-shadow: inset -2px -2px #bababa;
+
+  user-select: none;
+}
+
+#calculate {
+  background-color: #ffdfe4;
+  box-shadow: inset -2px -2px #f9bec7;
+}
+
+/*==========ADDING CLICKED EFFECTS TO BUTTONS===========*/
+
+button:active {
+  background-color: #d3d3d3;
+  box-shadow: inset 2px 2px #bababa;
+}
+
+#calculate:active {
+  background-color: #ffcdd5;
+  box-shadow: inset 2px 2px #bababa;
+}
